@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .navbar-icon {
+    @apply relative flex items-center justify-center h-12 w-28 mt-2 mb-2 mx-auto hover:bg-gray-100 cursor-pointer rounded-lg;
+  }
+  .leftbar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-white cursor-pointer;
+  }
+  .rightbar-icon {
+    @apply relative flex items-center justify-center h-10 w-10 mt-2 mb-2 mx-auto bg-gray-100 hover:bg-gray-200 rounded-full cursor-pointer;
+  }
+  .sidebar-icon {
+    @apply relative flex items-center justify-start h-16 w-1/2 px-3 gap-x-4 bg-primary hover:bg-gray-200 cursor-pointer rounded-lg;
+  }
+  .input-icon {
+    @apply relative flex items-center justify-start h-12 w-1/2 px-3 gap-x-4 hover:bg-gray-100 cursor-pointer rounded-lg;
+  }
+}
