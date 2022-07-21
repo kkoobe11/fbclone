@@ -19,7 +19,7 @@ import {
 const Centerbar = () => {
   return (
     <div className="flex flex-col items-center text-white">
-      <div className="flex justify-end">
+      <div className="justify-end hidden lg:flex">
         Stay connected with me!
       </div>
     <div className="flex">
