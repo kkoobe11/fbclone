@@ -10,15 +10,15 @@ const Content = () => {
         <Image
           className="rounded-full"
           objectFit="cover"
-          src="/images/mdk.png"
+          src="/images/kobe.png"
           width={200}
           height={200}
           layout="fixed"
           alt=""
         />
         <div className="flex items-center justify-center pt-2">
-        <h1 className="text-4xl font-semibold lg:text-5xl text-kobe">R</h1>
-        <h1 className="text-4xl font-semibold lg:text-5xl">in</h1>
+        <h1 className="text-4xl font-semibold lg:text-5xl text-kobe">K</h1>
+        <h1 className="text-4xl font-semibold lg:text-5xl">obe Priam Bantes</h1>
         </div>
         <h1 className="text-xl font-normal lg:text-xl">Junior Software Engineer</h1>
         </div>
