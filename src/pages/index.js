@@ -1,6 +1,6 @@
 import Navbar from "./components/nav-bar/nav-bar";
 import { useEffect, useRef, useState } from "react";
-import BIRDS from "vanta/dist/vanta.birds.min";
+import BIRDS from "vanta/dist/vanta.net.min";
 import * as THREE from "three";
 import Content from "./components/center-content";
 import Footer from "./components/nav-bar/footer";
@@ -21,9 +21,7 @@ export default function Home() {
           minWidth: 200.00,
           scale: 1.00,
           scaleMobile: 1.00,
-          color1: 0xfff,
-          birdSize: 0.90,
-          quantity: 3.00
+          color: 0x3fa4ff
         })
       );
     }
