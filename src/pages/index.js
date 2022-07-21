@@ -1,7 +1,5 @@
-import Widgets from "./components/chatbar/chatbar";
-import Feed from "./components/maincontent/feed/Feed";
+
 import Navbar from "./components/nav-bar/nav-bar";
-import Sidebar from "./components/side-bar/Sidebar";
 import { useEffect, useRef, useState } from "react";
 import BIRDS from "vanta/dist/vanta.birds.min";
 import * as THREE from "three";

@@ -1,7 +1,6 @@
 import React from "react";
 import Centerbar from "./center-bar";
-import Leftbar from "./left-bar";
-import Rightbar from "./right-bar";
+
 
 const Footer = () => {
   return (

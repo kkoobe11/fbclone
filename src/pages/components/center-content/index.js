@@ -14,6 +14,7 @@ const Content = () => {
           width={200}
           height={200}
           layout="fixed"
+          alt=""
         />
         <div className="flex items-center justify-center pt-2">
         <h1 className="text-4xl font-semibold lg:text-5xl text-kobe">R</h1>
