@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   FaUserFriends,
   FaStore,
@@ -14,10 +15,7 @@ import SidebarRow from "./Sidebarcont";
 
 const Sidebar = () => {
   return (
-    <div
-      className="hidden lg:block p-1.5 max-w-[600px] xl:min-w-[300px] h-screen pb-44 
-    overflow-y-auto scrollbar-hide "
-    >
+    <div className="hidden lg:block p-1.5 max-w-[600px] xl:min-w-[300px] h-screen pb-44 hover:overflow-y-auto">
       <div className="relative flex items-center justify-start h-16 px-2 gap-x-2 mx-1.5 bg-primary hover:bg-gray-200 cursor-pointer rounded-lg">
         <img
           src="https://picsum.photos/id/1/35"
@@ -40,6 +38,9 @@ const Sidebar = () => {
       <SidebarRow Icon={FaFirstOrder} title="Progmmers Codeposting" />
       <SidebarRow Icon={IoMdTimer} title="Buy and sell group" />
       <SidebarRow Icon={BsArrowDownCircle} title="See More" />
+      <Link href="/about">
+        <a>About Us</a>
+      </Link>
     </div>
   );
 };

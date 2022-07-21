@@ -3,7 +3,7 @@ import Feedline from "./feedline";
 
 const Topinput = () => {
   return (
-    <div className="flex w-full h-12">
+    <div className="flex w-full h-12 pl-2 pt-1 items-center">
       <div>
         <img
           src="https://picsum.photos/id/1/45"
@@ -11,16 +11,15 @@ const Topinput = () => {
         ></img>
       </div>
       <div className="w-full">
-      <div className="flex ml-8 items-center rounded-full bg-gray-100 p-2 h-12 w-10/12">
-        <input
-          className="md:inline-flex flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink w-10/12"
-          type="text"
-          placeholder="What's on your mind?"
-        ></input>
+        <div className="flex ml-2 mr-2 items-center rounded-full bg-gray-100 p-2 h-12">
+          <input
+            className="md:inline-flex flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink w-10/12"
+            type="text"
+            placeholder="What's on your mind?"
+          ></input>
+        </div>
       </div>
     </div>
-      </div>
-
   );
 };
 

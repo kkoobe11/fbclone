@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
 @layer components {
   .navbar-icon {
-    @apply relative flex items-center justify-center h-12 w-28 mt-2 mb-2 mx-auto hover:bg-gray-100 cursor-pointer rounded-lg;
+    @apply relative flex items-center justify-center h-12 w-20 mt-2 mb-2 mx-auto hover:bg-gray-700 cursor-pointer rounded-lg;
   }
   .leftbar-icon {
     @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-white cursor-pointer;

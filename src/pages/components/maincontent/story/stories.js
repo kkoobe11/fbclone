@@ -2,31 +2,31 @@ import StoryCard from "./StoryCard";
 
 const stories = [
   {
-    id: 1,
+    key: 1,
     name: "Inosuke",
     src: "/images/1.png",
     profile: "/images/1.png",
   },
   {
-    id: 2,
+    key: 2,
     name: "Meowth",
     src: "/images/2.png",
     profile: "/images/2.png",
   },
   {
-    id: 3,
+    key: 3,
     name: "Jeffrey",
     src: "/images/3.png",
     profile: "/images/3.png",
   },
   {
-    id: 4,
+    key: 4,
     name: "Marky",
     src: "/images/4.png",
     profile: "/images/4.png",
   },
   {
-    id: 5,
+    key: 5,
     name: "Marie",
     src: "/images/5.png",
     profile: "/images/5.png",
@@ -38,7 +38,7 @@ function Stories() {
     <div className="flex justify-center space-x-3 mx-auto ">
       {stories.map((story) => (
         <StoryCard
-          key={story.src}
+          key={story.id}
           name={story.name}
           src={story.src}
           profile={story.profile}

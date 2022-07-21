@@ -6,7 +6,7 @@ import Rooms from "../rooms/rooms";
 const Feed = () => {
   return (
     <div
-      className="flex-grow h-screen pb-44 pt-6 
+      className="flex grow h-screen pb-4 pt-6 
          overflow-y-auto scrollbar-hide"
     >
       <div

@@ -3,20 +3,30 @@ import { FaFacebook, FaSearch } from "react-icons/fa";
 
 const Leftbar = () => {
   return (
-    <div className="flex items-center">
-      <NavBarIcon
-        icon={
-          <FaFacebook size="40" className="cursor-pointer" color="#1b74e4" />
-        }
-      />
-      <div className="flex ml-2 items-center rounded-full bg-gray-100 p-2">
+    <div className="flex items-center gap-5 pl-4">
+      <div className="flex">
+      <h1 className="text-3xl font-semibold lg:text-3xl text-kobe">K</h1>
+      <h1 className="text-3xl font-semibold text-white lg:text-3xl">B</h1>
+        </div>
+
+
+        <div className="relative flex items-center justify-center h-12 mx-auto mt-2 mb-2 font-normal text-white rounded-lg cursor-pointer w-28 hover:bg-gray-700">
+          About Me
+        </div>
+        <div className="relative flex items-center justify-center h-12 mx-auto mt-2 mb-2 font-normal text-white rounded-lg cursor-pointer w-28 hover:bg-gray-700">
+          Projects
+        </div>
+        <div className="relative flex items-center justify-center h-12 mx-auto mt-2 mb-2 font-normal text-white rounded-lg cursor-pointer w-28 hover:bg-gray-700">
+          Contact
+        </div>
+      {/* <div className="flex items-center p-2 ml-2 bg-transparent rounded-full">
         <FaSearch className="h-6 text-gray-600" />
         <input
-          className="md:inline-flex flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink"
+          className="flex items-center flex-shrink ml-2 placeholder-gray-500 bg-transparent outline-none md:inline-flex"
           type="text"
           placeholder="Search Facebook"
         ></input>
-      </div>
+      </div> */}
     </div>
   );
 };

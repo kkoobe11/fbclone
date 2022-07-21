@@ -6,26 +6,31 @@ import Contact from "./Contact";
 
 const contacts = [
   {
+    key: 1,
     name: "Vladimir Putin",
     src: "/images/1.png",
     profile: "/images/1.png",
   },
   {
+    key: 2,
     name: "Donald Trump",
     src: "/images/2.png",
     profile: "/images/2.png",
   },
   {
+    key: 3,
     name: "Jef",
     src: "/images/3.png",
     profile: "/images/3.png",
   },
   {
+    key: 4,
     name: "John",
     src: "/images/4.png",
     profile: "/images/4.png",
   },
   {
+    key: 5,
     name: "Giovannetta",
     src: "/images/5.png",
     profile: "/images/5.png",
@@ -47,7 +52,7 @@ function Widgets() {
 
       {contacts.map((contact) => (
         <Contact
-          key={contact.profile}
+          key={contact.key}
           src={contact.profile}
           name={contact.name}
         />

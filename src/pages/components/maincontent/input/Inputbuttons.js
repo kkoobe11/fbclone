@@ -1,57 +1,33 @@
 import React from "react";
 import { AiFillVideoCamera } from "react-icons/ai";
-import SidebarRow from "../../side-bar/Sidebarcont";
+import { BiPhotoAlbum } from "react-icons/bi";
+import { VscSmiley } from "react-icons/vsc";
 import Button from "./inputbuttoncomp";
 
 const Inputbuttons = () => {
   const button_data = [
     {
+      key: 1,
       icon: <AiFillVideoCamera className="text-red-500 h-7 w-8" />,
       title: "Live Video",
     },
     {
-      icon: <AiFillVideoCamera className="text-green-500 h-7 w-8" />,
+      key: 2,
+      icon: <BiPhotoAlbum className="text-green-500 h-7 w-8" />,
       title: "Photo/Video",
     },
     {
-      icon: <AiFillVideoCamera className="text-yellow-500 h-10 w-8" />,
-      title: "Activity",
+      key: 3,
+      icon: <VscSmiley className="text-yellow-500 h-10 w-8" />,
+      title: "Feeling/Activity",
     },
   ];
 
   return (
     <div className="justify-center flex flex-grow ">
       {button_data.map((story) => (
-        <Button icon={story?.icon} title={story?.title} />
+        <Button Icon={story?.icon} title={story?.title} />
       ))}
-
-      {/* <NavBarIcon
-        icon={
-          <AiFillVideoCamera
-            size="28"
-            className="cursor-pointer"
-            color="#f4556f"
-          />
-        }
-      />
-      <NavBarIcon
-        icon={
-          <AiFillVideoCamera
-            size="28"
-            className="cursor-pointer"
-            color="#f4556f"
-          />
-        }
-      />
-      <NavBarIcon
-        icon={
-          <AiFillVideoCamera
-            size="28"
-            className="cursor-pointer"
-            color="#f4556f"
-          />
-        }
-      /> */}
     </div>
   );
 };

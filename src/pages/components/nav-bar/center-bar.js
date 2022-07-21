@@ -9,31 +9,23 @@ import {
   FaStore,
   FaTv,
 } from "react-icons/fa";
+import { AiFillGithub, AiFillFacebook, AiFillTwitterCircle, AiFillLinkedin} from "react-icons/ai";
 
 const Centerbar = () => {
   return (
-    <div className="flex justify-center flex-grow">
+    <div className="flex">
       <NavBarIcon
-        icon={<FaHome size="28" className="cursor-pointer" color="#1b74e4" />}
+        icon={<AiFillGithub size="28" className="cursor-pointer" color="white" />}
       />
       <NavBarIcon
-        icon={<FaTv size="28" className="cursor-pointer" color="#7c7e81" />}
+        icon={<AiFillFacebook size="28" className="cursor-pointer" color="white" />}
       />
       <NavBarIcon
-        icon={<FaTv size="28" className="cursor-pointer" color="#7c7e81" />}
+        icon={<AiFillTwitterCircle size="28" className="cursor-pointer" color="white" />}
       />
 
       <NavBarIcon
-        icon={<FaStore size="28" className="cursor-pointer" color="#7c7e81" />}
-      />
-      <NavBarIcon
-        icon={
-          <FaPeopleArrows
-            size="28"
-            className="cursor-pointer"
-            color="#7c7e81"
-          />
-        }
+        icon={<AiFillLinkedin size="28" className="cursor-pointer" color="white" />}
       />
     </div>
   );
