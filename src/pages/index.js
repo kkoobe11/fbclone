@@ -4,6 +4,7 @@ import BIRDS from "vanta/dist/vanta.net.min";
 import * as THREE from "three";
 import Content from "./components/center-content";
 import Footer from "./components/nav-bar/footer";
+import Landing from "./landing/Landing";
 
 export default function Home() {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -17,11 +18,11 @@ export default function Home() {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 200.00,
-          minWidth: 200.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0x3fa4ff
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color: 0x3fa4ff,
         })
       );
     }
@@ -34,7 +35,7 @@ export default function Home() {
     <div style={{ height: "100vh" }} ref={vantaRef}>
       <div className="h-screen overflow-hidden">
         <Navbar />
-        <Content></Content>
+        <Content />
         <Footer />
       </div>
     </div>

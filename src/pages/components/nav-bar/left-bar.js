@@ -4,10 +4,12 @@ import Link from "next/link";
 const Leftbar = () => {
   return (
     <div className="flex items-center justify-center gap-3 pl-1 lg:pl-4">
-      <div className="flex pr-4">
-        <h1 className="text-3xl font-semibold lg:text-3xl text-kobe">K</h1>
-        <h1 className="text-3xl font-semibold text-white lg:text-3xl">B</h1>
-      </div>
+      <Link href="/">
+        <div className="flex items-center justify-center w-10 h-12 rounded-lg cursor-pointer hover:bg-gray-700">
+          <h1 className="text-3xl font-semibold lg:text-3xl text-kobe">K</h1>
+          <h1 className="text-3xl font-semibold text-white lg:text-3xl">B</h1>
+        </div>
+      </Link>
 
       <Link href="/about">
         <div className="relative flex items-center justify-center w-20 h-12 font-normal text-white rounded-lg cursor-pointer lg:w-28 hover:bg-gray-700">
