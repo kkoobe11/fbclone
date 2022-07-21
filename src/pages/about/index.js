@@ -28,7 +28,7 @@ const About = () => {
             <div>        <Image
           className="rounded-3xl"
           objectFit="cover"
-          src="/images/grad.jpg"
+          src="/images/grad.png"
           width={300}
           height={400}
           layout="fixed"
