@@ -32,7 +32,7 @@ export default function Home() {
   }, [vantaEffect]);
 
   return (
-    <div style={{ height: "100vh", width: "50vw" }} ref={vantaRef}>
+    <div ref={vantaRef}>
       <div className="h-screen overflow-hidden">
         <Navbar />
         <Content />
