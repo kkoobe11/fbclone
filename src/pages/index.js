@@ -1,6 +1,6 @@
 import Navbar from "./components/nav-bar/nav-bar";
 import { useEffect, useRef, useState } from "react";
-import BIRDS from "vanta/dist/vanta.birds.min";
+import BIRDS from "vanta/dist/vanta.net.min";
 import * as THREE from "three";
 import Content from "./components/center-content";
 import Footer from "./components/nav-bar/footer";
@@ -22,6 +22,8 @@ export default function Home() {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
+          points: 20.00,
+          maxDistance: 40.00,
           color: 0x3fa4ff,
         })
       );
@@ -32,7 +34,7 @@ export default function Home() {
   }, [vantaEffect]);
 
   return (
-    <div ref={vantaRef}>
+    <div className="w-screen h-screen" ref={vantaRef}>
       <div className="h-screen overflow-hidden">
         <Navbar />
         <Content />
