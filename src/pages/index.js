@@ -17,14 +17,14 @@ export default function Home() {
           THREE,
           mouseControls: true,
           touchControls: true,
-          gyroControls: false,
+          gyroControls: true,
           minHeight: 200.0,
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
+          color: 0x603fff,
           points: 20.00,
-          maxDistance: 34.00,
-          color: 0x6c3fff,
+          maxDistance: 29.00
         })
       );
     }
