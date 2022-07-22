@@ -1,7 +1,6 @@
 import React from "react";
 import Centerbar from "./center-bar";
 
-
 const Footer = () => {
   return (
     <div className="fixed bottom-0 items-center w-full bg-topblack z-49">
