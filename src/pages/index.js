@@ -23,8 +23,8 @@ export default function Home() {
           scale: 1.0,
           scaleMobile: 1.0,
           points: 20.00,
-          maxDistance: 40.00,
-          color: 0x3fa4ff,
+          maxDistance: 34.00,
+          color: 0x6c3fff,
         })
       );
     }
