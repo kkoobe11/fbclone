@@ -13,7 +13,7 @@ const MyComponent = (props) => {
     if (!vantaEffect) {
       setVantaEffect(BIRDS({
         el: myRef.current,
-        THREE,
+        THREE: THREE,
       }))
     }
     return () => {
