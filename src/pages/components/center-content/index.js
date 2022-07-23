@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Content = () => {
   return (
-    <div className="flex items-center justify-center w-screen h-full text-white">
+    <div className="flex items-center justify-center w-full h-full text-white">
       <div className="flex items-center justify-center w-9/12 rounded-lg opacity-75 h-96 bg-zinc-700 lg:w-1/2 xl:w-1/3"></div>
       <div className="absolute text-center opacity-100 select-none">
         <Image

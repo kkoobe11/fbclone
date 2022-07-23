@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex justify-center w-screen pt-[5rem] overflow-y-auto lg:h-screen lg:pt-0 lg:items-center bg-mainbg h-[63rem] select-none">
+      <div className="flex justify-center pt-[5rem] overflow-y-auto lg:h-screen lg:pt-0 lg:items-center bg-mainbg h-[63rem] sm:h-screen select-none pb-[5rem]">
         <div className=" absolute lg:flex flex-row gap-2 items-center justify-center w-11/12 text-white h-[25rem] rounded-xl ">
           <div className="flex flex-col items-start justify-start h-full gap-0 text-center lg:text-start lg:p-8 lg:w-1/2">
             <div className="flex justify-center w-full pt-5 font-sans text-3xl text-center text-white lg:pt-0 lg:text-5xl lg:justify-start">
@@ -27,7 +27,7 @@ const About = () => {
               make restful APIs and database schemes.
             </div>
           </div>
-          <div className="flex justify-center h-full pt-2 lg:items-start lg:w-1/2 md:pt-0">
+          <div className="flex justify-center pt-2 lg:items-start lg:w-1/2 md:pt-0">
             <div>
               {" "}
               <Image
